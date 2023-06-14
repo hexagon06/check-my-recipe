@@ -7,3 +7,6 @@ export declare type Reference = {
 export type PathItem = {
     getPath: () => string
 }
+
+export type Id<T> = IdItem & T
+export type Referenced<T> = Reference & T

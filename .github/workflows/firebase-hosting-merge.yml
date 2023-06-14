@@ -22,3 +22,4 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CHECK_MY_RECIPE }}"
           channelId: live
           projectId: check-my-recipe
+          entryPoint: /check-my-recipe

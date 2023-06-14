@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "./check-my-recipe"
+		},
+		{
+			"path": ".github"
 		}
 	],
 	"settings": {}

@@ -19,4 +19,4 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CHECK_MY_RECIPE }}"
           projectId: check-my-recipe
-          entryPoint: /check-my-recipe
+          entryPoint: ./check-my-recipe
